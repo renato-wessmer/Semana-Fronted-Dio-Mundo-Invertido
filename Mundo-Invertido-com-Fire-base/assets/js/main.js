@@ -1,8 +1,6 @@
 
 import { subscribeToHellfireClub } from './firebase/hellfire-club.js'
 
-console.log(app)
-
 const txtName = document.getElementById('txtName')
 const txtEmail = document.getElementById('txtEmail')
 const txtLevel = document.getElementById('txtLevel')
@@ -10,7 +8,7 @@ const txtCharacter = document.getElementById('txtCharacter')
 
 const btnSubscribe = document.getElementById('btnSubscribe')
 
-btnSubscribe.addEventListener('click', () => {
+btnSubscribe.addEventListener('click', async () => {
     const subscription = {
         name: txtName.valeu,
         email: txtEmail.value,
@@ -19,7 +17,8 @@ btnSubscribe.addEventListener('click', () => {
     }
 
     // Save in Database
-    subscribeToHellfireClub(subscription)
+    const subscriptionId =  await subscribeToHellfireClub(subscription)
+    console.log('Inscrito com sucesso: ${subscriptionId}')
 
 })    
 
