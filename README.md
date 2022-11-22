@@ -1,8 +1,8 @@
 # Semana-Fronted-Dio-Mundo-Invertido
  ## :computer: Tecnologias Utilizadas
 
-* **Front-end:** HTML, CSS e JavaScript
-* **Ferramentas:** Visual Studio Code
+* **Front-end:** HTML, CSS e JavaScript.
+* **Ferramentas:** Visual Studio Code.
 
 ## Link do funcionamento da atividade
 
@@ -21,4 +21,4 @@
 
 ☑️ 1º É preciso instalar a extensão live server (Ritwick Dey) no Visual Studio Code;
 
-☑️ 2º Versão utilizada v5.7.9..
+☑️ 2º Versão utilizada v5.7.9.
