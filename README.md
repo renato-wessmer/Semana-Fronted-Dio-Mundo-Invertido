@@ -1,5 +1,5 @@
 # Semana-Fronted-Dio-Mundo-Invertido
- ## :computer: Tecnologias Utilizadas
+ ## :computer: Tecnologias Utilizadas.
 
 * **Front-end:** HTML, CSS e JavaScript.
 * **Ferramentas:** Visual Studio Code.
