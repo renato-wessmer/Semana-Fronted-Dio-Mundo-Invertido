@@ -9,7 +9,7 @@
 [https://youtu.be/NLfN_jF72M4](https://youtu.be/bBtTc2meVJY)
 ## Requisitos para uso
 
-## Instalação / Installati
+## Instalação / Installation
 
 ☑️ 1º Instalação do Visual Studio Code;
 
